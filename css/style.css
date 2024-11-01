@@ -190,7 +190,7 @@ a:hover {
   gap: 50px;
 }
 
-@media (min-width: 2000px) {
+@media (max-width: 2700px) {
   .panel {
     max-width: 1920px;
   }
