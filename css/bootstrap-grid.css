@@ -1923,6 +1923,17 @@ html {
   border: 0px solid!important;
 }
 
+.dark {
+  background-color: #111111!important;
+  color: #fbf8ef!important;
+}
+
+.clear {
+  background-color: rgba(0, 0, 0, 0.35)!important;
+  color: #fbf8ef!important;
+  text-shadow: 1px 1px #1b1b1b;
+}
+
 .card {
   position: relative;
   display: -ms-flexbox;
@@ -1935,7 +1946,7 @@ html {
   color: #0a0a0a;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 1.3rem;
+  border-radius: 0.8rem;
 }
 
 .card > hr {

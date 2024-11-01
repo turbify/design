@@ -101,6 +101,9 @@ a {
   background-color: #ffce01;
 }
 
+bold {
+  font-weight: bold;
+}
 
 .anav {
   color: #fbf8ef;
@@ -150,7 +153,6 @@ a:hover {
   flex-grow: 1;
   position: relative;
   background-image: url("../assets/background_mockup.png");
-  filter: blur(0px);
   background-size: cover;
 }
 
@@ -186,6 +188,35 @@ a:hover {
   flex-grow: 1;
   color: #fbf8ef;
   gap: 50px;
+}
+
+@media (min-width: 2000px) {
+  .panel {
+    max-width: 1920px;
+  }
+}
+
+.panel-img {
+  height: 75vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.panel-text {
+  color: #d3cfc7;
+  width: 100%;
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+.panel-img > img {
+  width: 100%;
+  height: auto;
 }
 
 .javascript {

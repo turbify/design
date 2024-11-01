@@ -32,7 +32,7 @@ requestAnimationFrame(raf);
 
 
 // Array of titles to rotate
-const titles = ["Thank You For Visiting", "Check Out My Projects", "Contact Me Today", "Hi I'm Eryk Sobczak"];
+const titles = ["Skontaktuj się dzisiaj", "Daj się rozpoznać"];
     
 let index = 0; // Start from the first title
 
@@ -43,7 +43,7 @@ function changeTitle() {
 }
 
 // Change the title every 3 seconds (3000 milliseconds)
-setInterval(changeTitle, 3000);
+setInterval(changeTitle, 4000);
 
 
 // scrollto
