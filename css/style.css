@@ -171,7 +171,7 @@ a:hover {
 }
 
 .container {
-  width: 700vw;
+  width: 600vw;
   min-height: 100vh;
   display: flex;
   flex-wrap: nowrap;
