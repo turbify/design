@@ -190,6 +190,8 @@ a:hover {
   gap: 50px;
 }
 
+
+
 @media (max-width: 2700px) {
   .panel {
     max-width: 1920px;
@@ -205,6 +207,7 @@ a:hover {
   align-items: center;
   padding-left: 3vw;
   padding-right: 3vw;
+  padding-bottom: 3rem;
 }
 
 .panel-text {
@@ -254,21 +257,45 @@ a:hover {
 }
 
 @media screen and (max-width: 800px) {
+
+  .huge {
+    font-size: 3.5rem!important;
+  }
+
+  .heroimg {
+    height: 40vh!important;
+  }
+
+  .fullscreen-box {
+    padding: 10px!important;
+    padding-top: 100px!important;
+  }
+
+  .icon-size {
+    max-width: 24px!important;
+    max-height: 24px!important;
+  }
+
   .container {
     display: block !important;
     width: fit-content !important;
   }
 
   .panel {
-    padding: 25px !important;
-    min-height: 100vh !important;
+    padding: 10px !important;
+    margin-top: 5rem !important;
+    min-height: 25vh !important;
     flex-direction: column;
     gap: 0px !important;
   }
 
+  .panel-img {
+    height: 25vh!important;
+  }
+
   .hero,
   .footer {
-    padding: 25px !important;
+    padding: 10px !important;
   }
 
   .title {
